@@ -1,0 +1,30 @@
+# Build output directories
+Debug/
+Release/
+build/
+
+# Compiled files
+*.o
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.srec
+
+# IDE and toolchain specific files
+# Renesas e2 studio / FSP
+.settings/
+configuration.xml
+*.gpdsc
+*.scat
+*.ld
+
+# Generated source code that can be regenerated
+# 检查 ra_gen 和 ra_cfg 是否是自动生成的，如果是，则取消下面的注释
+# ra_gen/
+# ra_cfg/
+
+# Other
+*.bak
+*~
